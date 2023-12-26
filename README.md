@@ -31,14 +31,16 @@ Finally, apparent FRET efficiencies $FRET$ (`FRET` in FRET2radius) are calculate
 In the first example, we want to visualize the effect of conformation-induced boradening only. 
 For this, we set `SNR` to infinite and increase broadening with `radius dev.`.
 When the equilibrium distance is varied to very large or very short, we see that the apparent FRET distribution loses its symmerical shape but not the apparent distance distribution.
-[state-space-broadening.webm](https://github.com/mca-sh/FRET2radius/assets/7199132/59a9dd69-7eff-42dd-a1bd-d988b1f16817)
+
+<video width="630" height="300" src="https://github.com/mca-sh/FRET2radius/assets/7199132/59a9dd69-7eff-42dd-a1bd-d988b1f16817"></video>
 
 ### Shot-noise broadening
 
 In the second example, we want to visualize the effect of shot-noise-induced boradening only. 
 For this, we set `radius dev.` to zero and increase the broadening by decreasing `SNR`.
 When the equilibrium distance is varied to very large or very short, we see that the apparent distance distribution loses its symmerical shape but not the apparent FRET distribution.
-[shot-noise-broadening.webm](https://github.com/mca-sh/FRET2radius/assets/7199132/186911c8-54a4-453f-83a4-594ab757604b)
+
+<video width="630" height="300" src="https://github.com/mca-sh/FRET2radius/assets/7199132/186911c8-54a4-453f-83a4-594ab757604b"></video>
 
 
 

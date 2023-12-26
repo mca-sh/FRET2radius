@@ -33,5 +33,3 @@ end
 updatecalc([],[],fig);
 
 
-function ord = calcorder(n)
-ord = 0;

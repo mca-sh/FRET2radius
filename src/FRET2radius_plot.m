@@ -20,7 +20,7 @@ plot(ax(1),[R0,R0],ax(1).YLim,'linestyle','--','color',clr3,'linewidth',2);
 plot(ax(2),1./(1+([r,r]/R0).^6),ax(2).YLim,'linestyle','--','color',clr2,...
     'linewidth',2);
 
-xlabel(ax(1),'radius');
+xlabel(ax(1),'app. radius');
 xlabel(ax(2),'FRET');
 ylabel(ax(1),'norm. counts');
 ylabel(ax(2),'norm. counts');
